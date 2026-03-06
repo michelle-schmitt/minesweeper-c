@@ -1,4 +1,4 @@
-# Minesweeper (C 89) 🎮
+# Minesweeper (C) 🎮
 
 Console-based Minesweeper game developed as part of a **team project** at university.  
 Primary contributions include the main game logic, while collaborating on shared components and headers.
@@ -25,6 +25,7 @@ gcc main.c leaderboard.o readandinput.o mines.o printf.o gameloop.o init.o -o mi
 
 ## Running the Program
 - After compiling, run the program with optional height and width parameters:
+  
 MacOS:
 ```bash
 ./minesweeper [height] [width]
@@ -66,9 +67,9 @@ minesweeper [height] [width]
 
 ## Tech Stack
 
-- **Language:** C  
+- **Language:** C (C89 standard)
 - **Compiler:** GCC  
-- **Platform:** Windows & MacOS (tested)  
+- **Platform:** Windows & MacOS
 
 ---
 
