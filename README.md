@@ -23,6 +23,8 @@ gcc -c init.c gameloop.c mines.c printf.c readandinput.c leaderboard.c -Wall -We
 gcc main.c leaderboard.o readandinput.o mines.o printf.o gameloop.o init.o -o minesweeper -Wall -Wextra -ansi -pedantic
 ```
 
+---
+
 ## Running the Program
 - After compiling, run the program with optional height and width parameters:
   
@@ -37,6 +39,8 @@ minesweeper [height] [width]
 - Without parameters or invalid input, default or maximum size is used.
 - The program starts with a welcome message and gameplay instructions.
 
+---
+
 ## Gameplay Instructions
 - The grid is represented by coordinates (rows and columns).
 - Choose a difficulty level: EASY, INTERMEDIATE, HARD.
@@ -46,6 +50,8 @@ minesweeper [height] [width]
 - Avoid uncovering mines. Hitting a mine ends the game.
 - The game is won when all non-mine fields are revealed.
 - After finishing, you can view the leaderboard (if available).
+
+---
 
 ## Commands
 
@@ -77,5 +83,13 @@ minesweeper [height] [width]
 
 - Designed as a console-based project to demonstrate **fundamentals of C programming, file I/O, and game logic**.  
 - Developed as part of a team project
+
+---
+
+## Screenshots
+![Startbildschirm](assets/startbildschirm.png)
+![Help-Befehl](assets/help.png)
+![Spiel in Aktion](assets/game.png)
+![Gewonnen & Leaderboard](assets/won.png)
 
 
